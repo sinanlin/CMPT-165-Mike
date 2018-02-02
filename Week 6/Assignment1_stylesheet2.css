@@ -1,0 +1,40 @@
+/* This CSS is design for text formatting */
+
+/*header*/
+h1{
+    text-align: center;
+    
+    font-family:Courier, "Lucida Console", monospace; }
+
+#first_line{
+    text-decoration: underline;
+    color: white;
+}
+
+#second_line{
+    color: gray;
+    text-align: right;
+}
+
+/*body*/
+body {
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+}
+
+/*list*/
+ul li a{
+    color:skyblue;
+    text-decoration: none;
+    
+}
+
+ul li{
+     list-style-type: none;
+}
+
+/*footer*/
+#footer{
+    font-family: cursive;
+    color: white;
+    text-align: center;
+}

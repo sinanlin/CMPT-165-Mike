@@ -1,0 +1,21 @@
+body{
+    background-color:#ff7;
+    color:#000;
+    font-size: 2em;
+    }
+
+h1{
+    font-family: sans-serif;
+    text
+    border-color:black;
+    border-style:solid;
+    border-width:thin;
+    background-color:#ffa;
+    }
+
+ol{
+    list-style-type:upper-alpha;
+    }
+
+
+        

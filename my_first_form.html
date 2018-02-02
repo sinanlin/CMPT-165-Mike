@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+
+<title>Form</title>
+<link rel="stylesheet" href="Assignment2_page1.css" type="text/css">
+    
+</head>
+    
+<body>
+<h1>Tell us more about You.</h1>
+
+    <form action="result.py ">
+        <div> 
+        <label for="name">Name(required): </label>
+        <input type="text" id="name" name="Name" autofocus required/>
+       </div>
+        
+
+        <div>
+        <label for="email">Email(required):</label>
+        <input type="email" id="email" name="Email" required />  
+        </div>
+        
+        <div>
+        <label for="phone">Phone number:</label>
+        <input type="number" id="phone" name="Phone number" />
+        </div>
+        
+        <div>
+        <label for="url">URL personal website:</label>
+        <input type="url" id="url" name="URL of their personal website" />
+        </div>
+        
+        <div>
+        <label for="birth">Birth year(required):</label>
+        <input type="number" id="birth" name="Birth year"/>
+        </div>
+        
+        <div>
+        <label>Salutation(for gender):</label>
+        <select name="salutation">  
+        <option  value="Mr.">Mr.</option>
+        <option  value="Ms.">Ms.</option>
+        <option  value="Mrs.">Mrs.</option>
+        </select>  
+            </div>
+        
+        <div>
+        <label>Areas of cours taken:</label> 
+        <br/>
+        <input type="checkbox"  name="BIO"/>BIO
+        <br/>
+        <input type="checkbox"  name="BUS"/> BUS
+        <br/>
+        <input type="checkbox"  name="CHEM"/>
+            CHEM
+        <br/>
+        <input type="checkbox"  name="CMPT"/>
+            CMPT
+        <br/>
+        <input type="checkbox"  name="CRIM"/>
+            CRIM
+        <br/>
+        <input type="checkbox"  name="FPA"/>
+            FPA
+        <br/>
+        <input type="checkbox"  name="PHY"/>
+            PHY
+        <br/>
+        <input type="checkbox"  name="OTHER" checked />
+            OTHER
+        <br/>
+               
+        </div>
+         <div>
+        <input type="submit" value="Submit" />
+
+    </div>
+    
+    </form>
+   
+    
+    
+
+
+</body>
+</html>

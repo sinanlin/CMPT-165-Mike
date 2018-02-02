@@ -1,0 +1,37 @@
+div.cblock {
+  width: 4em;
+  height: 2em;
+  border: 1px solid black;
+}
+#a {
+  background-color: #f00;
+}
+#b {
+  background-color: #007;
+}
+#c {
+  background-color: #ccc;
+}
+#d {
+  background-color: #f77;
+}
+#e {
+  background-color: #ffd;
+}
+#f {
+  background-color: #7f0;
+}
+
+#a2 {
+  background-color: rgb(0,0,255);
+}
+#b2 {
+  background-color: rgb(225,0,0);
+}
+
+#a3 {
+  background-color: hsl(200,100%,50%);  /*note where the % signs are!*/
+}
+#b3 {
+  background-color: hsl(360,100%,50%);
+}

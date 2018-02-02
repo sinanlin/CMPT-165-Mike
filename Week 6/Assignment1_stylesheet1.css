@@ -1,0 +1,47 @@
+/*header*/
+body{
+    background-image: url(6823600-england-flag.jpg);
+}
+
+
+/*body*/
+
+div.list{
+    float:left;
+    width: 20%;
+    margin-left: 9em;
+    background-color:white;
+    border-color:black;
+    border: solid;
+    
+}
+
+div.main{
+    float: left;
+    width:50%;
+    margin-left: 6em;
+    background-color: white;
+    border: solid;
+    
+    
+}
+
+
+div#body{
+    clear:left;
+    align-content: center;
+    margin-top: 5em;
+
+}
+
+/*footer*/
+
+div#footer{
+    clear: both;
+    margin-top:40em;
+}
+
+
+
+
+

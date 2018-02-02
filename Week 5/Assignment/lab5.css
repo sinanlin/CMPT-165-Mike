@@ -1,0 +1,28 @@
+ul#menu {
+    float:left;
+    width:6em; 
+    margin: 0;
+    padding: 0;
+}
+
+div#main {
+    margin-left: 7em;
+}
+
+
+ul#menu li{  
+    list-style-type: none;
+        
+    padding:.25em;
+    margin:2px;
+    background-color:#aac;
+    border-left:#ccf .75em solid;
+    border-right:#44a.75em solid;
+
+}
+
+ul#menu a{
+    color:#000;
+}
+
+

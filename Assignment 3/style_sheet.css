@@ -1,0 +1,48 @@
+.product{
+    float: left;
+    margin-left: 4em;
+    }
+.price{
+    margin-top: -3em;
+    margin-left: 2em;
+
+}
+
+#infoform{clear: both;}
+    
+.pic{margin: 2em;}
+
+
+
+#infoform{
+    float: left;
+    margin-left:6em;
+    border: 1px solid black;
+    background-color:aliceblue;
+    width: 75.6em;
+    margin-bottom: 2em;
+}
+
+ul{
+list-style-type : none;
+}
+
+
+
+div#footer {
+clear : both;
+margin-top : 4em;
+text-align: center;
+background-color: black;
+padding: 1.5em;
+    
+}
+#footer{
+    font-family: cursive;
+    color: white;
+    text-align: center;
+}
+
+#invoice{
+        float: left;
+    margin-left: 25em;}

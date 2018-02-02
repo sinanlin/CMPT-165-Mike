@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+
+<title>Mike BOOK STORE</title>
+<link rel="stylesheet" href="style_sheet.css" type="text/css">
+
+    
+</head>
+    
+<body>
+
+<!--For the header-->
+<img src="header.jpg" alt="library">
+    
+<!-- For the product list-->
+<div class="product">
+<img class="pic" alt="Sam" src="Sam.jpg"><div class="price"><p>$10</p></div>
+</div>
+<div class="product">  
+<img class="pic" alt="The lesson of history" src="The_lesson.jpg"><div class="price"><p>$10</p></div>
+</div>  
+<div class="product">
+<img class="pic" alt="Managing oneself" src="Managing_oneself.jpg" ><div class="price"><p>$10</p></div>
+</div>
+
+        
+<!-- For the form that ask for info-->
+    
+<div id="infoform">
+    <form action="get_invoice.py">
+    <h2>Your information</h2>
+    <ul>
+        <li>Name:<input type="text" id="name" name="Name" autofocus required/></li>
+        <li>Expected delivery date:<input type="date" name="deliverydate" /></li>
+        <li>Salutation(for gender):
+        <select name="salutation">  
+        <option  value="Mr.">Mr.</option>
+        <option  value="Ms.">Ms.</option>
+        <option  value="Mrs.">Mrs.</option>
+        </select>
+        </li>
+        <li>Adress:
+        Street:<input type="text" size="40" name="street"/> 
+        City:<input type="text" size="40" name="city"/>
+        Province:<input type="text" size="2" name="province"/>
+        Postal Code:<input type="text" size="6" maxlength="6" name="code"/></li>
+
+        <li>Email:<input type="email" id="email" name="Email" required /> </li>
+        <li>Phone:<input type="number" id="phone" name="Phonenumber" required /></li>   
+</ul>
+
+    <!--Purchase details-->
+
+<h2>Your shopping Cart:</h2>
+        <ul>
+            <li>Sam Walton, Price:$10: <div>Quantity:<input type="number" size="3" name="sam" value="0"/></div></li>
+            <li>The lesson of histroy, Price:$10: <div>Quantity:<input type="number" size="3" name="history" value="0"/></div></li>
+            <li>Managing oneself, Price:$10: <div>Quantity:<input type="number" size="3" name="manage" value="0"/></div></li>
+
+</ul>
+
+    <input type="submit" value="Submit"/>
+
+ 
+    
+    </form>
+       </div>
+
+<!--Footer-->
+<div id="footer">
+          <p>Copyright SINAN LIN.</p>
+    
+    </div>
+
+
+</body>
+</html>

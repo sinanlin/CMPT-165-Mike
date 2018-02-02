@@ -1,0 +1,40 @@
+/*Second pages*/
+
+div#leftbox{
+    margin-top: 1em;
+    margin-left:6em;
+    margin-bottom: 1em;
+    float: left;
+    height: 32em;
+    width: 25em;
+    background-color: white;
+    border: 1px solid;
+}
+
+div#topbox{
+    float: left; 
+    margin-top:1em;
+    margin-left: 2em;
+    
+    width:49em;
+    height: 10em;
+    background-color: white;
+    border: 1px solid;
+}
+
+iframe{
+    margin-top: -1em;
+    border:1px solid;}
+
+
+
+
+
+div.picture{
+    float: left;
+    margin-top: 1em;
+    margin-left: 2em;
+    width: 15em;
+    height: 10em;
+    background-color: azure;
+}

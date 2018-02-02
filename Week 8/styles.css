@@ -1,0 +1,11 @@
+tr{
+    background-color:rgb(140,223,140);
+    border:solid white;
+    text-align: center;
+  }
+
+td{font-weight:bold;
+   font-family:serif;
+    padding:1em;
+    text-align: center;
+}
